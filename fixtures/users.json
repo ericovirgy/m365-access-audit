@@ -1,0 +1,609 @@
+[
+  {
+    "id": "u001",
+    "userPrincipalName": "alice.martins@contoso-fixture.example",
+    "displayName": "Alice Martins",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-03T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Finance",
+    "jobTitle": "Finance Manager"
+  },
+  {
+    "id": "u002",
+    "userPrincipalName": "bruno.costa@contoso-fixture.example",
+    "displayName": "Bruno Costa",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-02T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Systems Administrator"
+  },
+  {
+    "id": "u003",
+    "userPrincipalName": "carla.dias@contoso-fixture.example",
+    "displayName": "Carla Dias",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-01T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Communications",
+    "jobTitle": "Communications Officer"
+  },
+  {
+    "id": "u004",
+    "userPrincipalName": "diego.freitas@contoso-fixture.example",
+    "displayName": "Diego Freitas",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-31T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Operations Coordinator"
+  },
+  {
+    "id": "u005",
+    "userPrincipalName": "elena.silva@contoso-fixture.example",
+    "displayName": "Elena Silva",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-30T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Governance",
+    "jobTitle": "Governance Officer"
+  },
+  {
+    "id": "u006",
+    "userPrincipalName": "felipe.gomes@contoso-fixture.example",
+    "displayName": "Felipe Gomes",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-29T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Support Technician"
+  },
+  {
+    "id": "u007",
+    "userPrincipalName": "gabriela.lima@contoso-fixture.example",
+    "displayName": "Gabriela Lima",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-28T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Finance",
+    "jobTitle": "Accountant"
+  },
+  {
+    "id": "u008",
+    "userPrincipalName": "henrique.alves@contoso-fixture.example",
+    "displayName": "Henrique Alves",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-27T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Logistics Analyst"
+  },
+  {
+    "id": "u009",
+    "userPrincipalName": "isabel.ramos@contoso-fixture.example",
+    "displayName": "Isabel Ramos",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-26T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Communications",
+    "jobTitle": "Designer"
+  },
+  {
+    "id": "u010",
+    "userPrincipalName": "joao.pereira@contoso-fixture.example",
+    "displayName": "Joao Pereira",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-25T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Network Engineer"
+  },
+  {
+    "id": "u011",
+    "userPrincipalName": "karla.mendes@contoso-fixture.example",
+    "displayName": "Karla Mendes",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-24T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Governance",
+    "jobTitle": "Records Clerk"
+  },
+  {
+    "id": "u012",
+    "userPrincipalName": "lucas.moreira@contoso-fixture.example",
+    "displayName": "Lucas Moreira",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-23T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Warehouse Operator"
+  },
+  {
+    "id": "u013",
+    "userPrincipalName": "mariana.sousa@contoso-fixture.example",
+    "displayName": "Mariana Sousa",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-22T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Finance",
+    "jobTitle": "Controller"
+  },
+  {
+    "id": "u014",
+    "userPrincipalName": "nelson.pinto@contoso-fixture.example",
+    "displayName": "Nelson Pinto",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-21T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Service Desk"
+  },
+  {
+    "id": "u015",
+    "userPrincipalName": "olga.cardoso@contoso-fixture.example",
+    "displayName": "Olga Cardoso",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-20T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Facilities",
+    "jobTitle": "Facilities Assistant"
+  },
+  {
+    "id": "u016",
+    "userPrincipalName": "paulo.rocha@contoso-fixture.example",
+    "displayName": "Paulo Rocha",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-19T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Dispatcher"
+  },
+  {
+    "id": "u017",
+    "userPrincipalName": "ana.quaresma@contoso-fixture.example",
+    "displayName": "Ana Quaresma",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-18T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Communications",
+    "jobTitle": "Content Editor"
+  },
+  {
+    "id": "u018",
+    "userPrincipalName": "rita.nogueira@contoso-fixture.example",
+    "displayName": "Rita Nogueira",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-17T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Governance",
+    "jobTitle": "Compliance Analyst"
+  },
+  {
+    "id": "u019",
+    "userPrincipalName": "sergio.antunes@contoso-fixture.example",
+    "displayName": "Sergio Antunes",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-16T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Infrastructure Engineer"
+  },
+  {
+    "id": "u020",
+    "userPrincipalName": "teresa.coelho@contoso-fixture.example",
+    "displayName": "Teresa Coelho",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-04T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Finance",
+    "jobTitle": "AP Clerk"
+  },
+  {
+    "id": "u021",
+    "userPrincipalName": "ulisses.marques@contoso-fixture.example",
+    "displayName": "Ulisses Marques",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-03T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Fleet Coordinator"
+  },
+  {
+    "id": "u022",
+    "userPrincipalName": "vitoria.borges@contoso-fixture.example",
+    "displayName": "Vitoria Borges",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-02T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Communications",
+    "jobTitle": "Press Officer"
+  },
+  {
+    "id": "u023",
+    "userPrincipalName": "xico.melo@contoso-fixture.example",
+    "displayName": "Xico Melo",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-01T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Facilities",
+    "jobTitle": "Maintenance Technician"
+  },
+  {
+    "id": "u024",
+    "userPrincipalName": "yara.fontes@contoso-fixture.example",
+    "displayName": "Yara Fontes",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-04-23T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-31T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Governance",
+    "jobTitle": "Data Protection Officer"
+  },
+  {
+    "id": "u025",
+    "userPrincipalName": "nuno.oliveira@contoso-fixture.example",
+    "displayName": "Nuno Oliveira",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2026-08-26T20:33:22Z",
+    "signInActivity": {},
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "New Hire"
+  },
+  {
+    "id": "u026",
+    "userPrincipalName": "shared.mailbox@contoso-fixture.example",
+    "displayName": "Shared Mailbox Account",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2024-03-19T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-02T20:33:22Z"
+    },
+    "assignedLicenses": [],
+    "department": "Operations",
+    "jobTitle": "Shared Mailbox"
+  },
+  {
+    "id": "u101",
+    "userPrincipalName": "hugo.neves@contoso-fixture.example",
+    "displayName": "Hugo Neves",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2024-06-27T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-04-18T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Operations",
+    "jobTitle": "Storekeeper"
+  },
+  {
+    "id": "u102",
+    "userPrincipalName": "ines.tavares@contoso-fixture.example",
+    "displayName": "Ines Tavares",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2024-06-27T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-02-17T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "Finance",
+    "jobTitle": "Accountant"
+  },
+  {
+    "id": "u201",
+    "userPrincipalName": "joana.fonseca@contoso-fixture.example",
+    "displayName": "Joana Fonseca",
+    "accountEnabled": false,
+    "userType": "Member",
+    "createdDateTime": "2024-03-19T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-05-08T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001",
+      "sku-0002"
+    ],
+    "department": "IT",
+    "jobTitle": "Former Administrator"
+  },
+  {
+    "id": "u202",
+    "userPrincipalName": "tiago.morais@contoso-fixture.example",
+    "displayName": "Tiago Morais",
+    "accountEnabled": false,
+    "userType": "Member",
+    "createdDateTime": "2024-10-05T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-04-28T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0003"
+    ],
+    "department": "Sales",
+    "jobTitle": "Former Sales Representative"
+  },
+  {
+    "id": "u301",
+    "userPrincipalName": "svc.provisioning@contoso-fixture.example",
+    "displayName": "Provisioning Service Account",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2026-05-28T20:33:22Z",
+    "signInActivity": {},
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "IT",
+    "jobTitle": "Service Account"
+  },
+  {
+    "id": "u401",
+    "userPrincipalName": "sofia.aguiar@contoso-fixture.example",
+    "displayName": "Sofia Aguiar",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2023-12-10T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-09-04T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0002"
+    ],
+    "department": "IT",
+    "jobTitle": "Global Administrator"
+  },
+  {
+    "id": "u402",
+    "userPrincipalName": "ricardo.leal@contoso-fixture.example",
+    "displayName": "Ricardo Leal",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2023-12-10T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-05-08T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0002"
+    ],
+    "department": "IT",
+    "jobTitle": "IT Manager"
+  },
+  {
+    "id": "u403",
+    "userPrincipalName": "miguel.torres@contoso-fixture.example",
+    "displayName": "Miguel Torres",
+    "accountEnabled": false,
+    "userType": "Member",
+    "createdDateTime": "2024-03-19T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-02-17T20:33:22Z"
+    },
+    "assignedLicenses": [],
+    "department": "IT",
+    "jobTitle": "Former Systems Administrator"
+  },
+  {
+    "id": "u404",
+    "userPrincipalName": "paula.serra@contoso-fixture.example",
+    "displayName": "Paula Serra",
+    "accountEnabled": true,
+    "userType": "Member",
+    "createdDateTime": "2025-01-13T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-06-02T20:33:22Z"
+    },
+    "assignedLicenses": [
+      "sku-0001"
+    ],
+    "department": "External",
+    "jobTitle": "Consultant"
+  },
+  {
+    "id": "g001",
+    "userPrincipalName": "v_collab.partner@outside.example",
+    "displayName": "Vera Outsidecollab",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "createdDateTime": "2024-10-05T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2025-12-19T20:33:22Z"
+    },
+    "assignedLicenses": [],
+    "department": null,
+    "jobTitle": "External Consultant"
+  },
+  {
+    "id": "g002",
+    "userPrincipalName": "v_partner.contact@partner.example",
+    "displayName": "Paulo Partnercontact",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "createdDateTime": "2024-10-05T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2025-09-05T20:33:22Z"
+    },
+    "assignedLicenses": [],
+    "department": null,
+    "jobTitle": "Partner Contact"
+  },
+  {
+    "id": "g003",
+    "userPrincipalName": "v_recent.guest@partner.example",
+    "displayName": "Renata Recentguest",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "createdDateTime": "2026-05-28T20:33:22Z",
+    "signInActivity": {
+      "lastSignInDateTime": "2026-08-26T20:33:22Z"
+    },
+    "assignedLicenses": [],
+    "department": null,
+    "jobTitle": "Partner"
+  },
+  {
+    "id": "g004",
+    "userPrincipalName": "v_never.guest@partner.example",
+    "displayName": "Nuno Neverguest",
+    "accountEnabled": true,
+    "userType": "Guest",
+    "createdDateTime": "2025-08-01T20:33:22Z",
+    "signInActivity": {},
+    "assignedLicenses": [],
+    "department": null,
+    "jobTitle": "Partner"
+  }
+]

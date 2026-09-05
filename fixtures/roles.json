@@ -1,0 +1,31 @@
+[
+  {
+    "id": "role-001",
+    "displayName": "Global Administrator",
+    "members": [
+      "u401",
+      "u403"
+    ]
+  },
+  {
+    "id": "role-002",
+    "displayName": "Privileged Role Administrator",
+    "members": [
+      "u404"
+    ]
+  },
+  {
+    "id": "role-003",
+    "displayName": "User Administrator",
+    "members": [
+      "u401"
+    ]
+  },
+  {
+    "id": "role-004",
+    "displayName": "Exchange Administrator",
+    "members": [
+      "u403"
+    ]
+  }
+]

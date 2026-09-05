@@ -1,0 +1,53 @@
+[project]
+name = "m365-access-audit"
+version = "0.1.0"
+description = "Automates the periodic access audit of a Microsoft 365 tenant via Microsoft Graph."
+authors = [{ name = "Erico Virgy" }]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+keywords = ["microsoft-365", "microsoft-graph", "access-review", "entra-id"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: System Administrators",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+dependencies = [
+    "msal>=1.30",
+    "requests>=2.32",
+]
+
+[project.scripts]
+m365-access-audit = "m365_access_audit.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ericovirgy/m365-access-audit"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "ruff>=0.8",
+]
+
+[build-system]
+requires = ["uv_build>=0.9,<1.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "m365_access_audit"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+src = ["src", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP", "SIM", "C4", "RUF"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sku-0001",
+    "skuPartNumber": "SPE_E3",
+    "displayName": "Microsoft 365 E3"
+  },
+  {
+    "id": "sku-0002",
+    "skuPartNumber": "SPE_E5",
+    "displayName": "Microsoft 365 E5"
+  },
+  {
+    "id": "sku-0003",
+    "skuPartNumber": "EXCHANGESTANDARD",
+    "displayName": "Exchange Online (Plan 1)"
+  }
+]

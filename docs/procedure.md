@@ -48,7 +48,7 @@ Three roles, which may be held by the same person only when no alternative exist
 ## 7. What to do with each finding type
 
 - **INACTIVE** (enabled account, no sign-in above threshold): contact the account owner or their manager. If the person left, disable the account the same day and remove licences. If the person is on extended leave, record that and keep. If nobody knows the account, disable it.
-- **DISABLED_WITH_LICENCE** (disabled account still licensed): reclaim the licence in the Microsoft 365 admin center. A disabled account must not consume a licence. This is free money back, do it immediately.
+- **DISABLED_WITH_LICENCE** (disabled account still licensed): reclaim the licence in the Microsoft 365 admin center. A disabled account must not consume a licence. This recovers licence cost with no impact on anyone; execute immediately.
 - **LICENSED_NEVER_SIGNED_IN** (licensed, no sign-in ever, account older than 30 days): confirm the account is expected, for example a staged onboarding. If it is not, disable it and reclaim the licence. If it happens every month for the same provisioning process, fix the process.
 - **PRIVILEGED_ROLE_MEMBER** (member of a privileged role, always listed): for each name, answer: does this person need this role today? Standing privileged access is the exception, not the rule. Remove roles that are no longer needed; where the platform allows, replace standing access with just-in-time activation. A member whose account is also inactive (severity high) is reviewed the same day the report is produced.
 - **STALE_GUEST** (guest, no sign-in above 180 days): remove the guest if the collaboration has ended, or ask the sponsoring employee to confirm it is still active. Guests without an identifiable sponsor are removed.

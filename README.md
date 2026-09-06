@@ -41,7 +41,7 @@ In the Microsoft Entra admin center:
 3. API permissions, Add a permission, Microsoft Graph, Application permissions. Add exactly these:
    - `User.Read.All`
    - `Group.Read.All`
-   - `Directory.Read.All`
+   - `LicenseAssignment.Read.All`
    - `AuditLog.Read.All`
    - `RoleManagement.Read.Directory`
 4. Grant admin consent for the tenant.
@@ -70,6 +70,7 @@ uv run m365-access-audit --source graph
 Least privilege notes:
 
 - The app gets five read-only application permissions and nothing else. It cannot write to the tenant.
+- `LicenseAssignment.Read.All` is the least privileged permission that serves `GET /subscribedSkus`, the only call that needs it. `Directory.Read.All` also works and was the earlier default, but it grants read access to the whole directory; prefer the narrower one.
 - `AuditLog.Read.All` exists only for `signInActivity`. If your tenant has no Microsoft Entra ID P1 or P2 licence at all, `signInActivity` is not returned by Graph; the report will then show fewer INACTIVE and STALE_GUEST findings. See `docs/permissions.md`.
 - Run it with a short-lived secret, store it in a password manager or secret manager, and rotate it. The app registration itself should be owned by at least two admins so the audit does not depend on one person.
 

@@ -19,10 +19,11 @@ The app registration should carry exactly these five application permissions and
 - **Why**: `GroupMember.ReadBasic.All` would allow reading member ids, but only `Group.Read.All` (or `Directory.Read.All`) also returns full group objects such as `groupTypes` and `membershipRule`. Group.Read.All covers both the group objects and their member relationships.
 - **Source**: [List groups](https://learn.microsoft.com/en-us/graph/api/group-list?view=graph-rest-1.0) and [List members](https://learn.microsoft.com/en-us/graph/api/group-list-members?view=graph-rest-1.0). For `GET /groups/{id}/members` the least privileged application permission is `GroupMember.ReadBasic.All`, but the audit needs group metadata too, so `Group.Read.All` covers both.
 
-### Directory.Read.All (application)
+### LicenseAssignment.Read.All (application)
 
 - **Used for**: `GET /subscribedSkus`
-- **Why**: resolves licence SKU ids to human names. The documented least privileged application permission for `GET /subscribedSkus` is `LicenseAssignment.Read.All`; `Directory.Read.All` is listed among the sufficient permissions on the same page. The brief's expected set is kept (Directory.Read.All) since it is also required in practice by other directory reads in some tenants, but if you want to reduce the set further, `LicenseAssignment.Read.All` can replace `Directory.Read.All` for this specific call. This is the only entry where a narrower alternative exists.
+- **Why**: resolves licence SKU ids to human names. This is the documented least privileged application permission for the call, so it is what the app registration should carry. `GET /subscribedSkus` is the only endpoint the tool calls that is not already covered by `User.Read.All`, `Group.Read.All` or `RoleManagement.Read.Directory`, so nothing else in the tool depends on a broader directory permission.
+- **Alternative, more privileged**: `Directory.Read.All` also satisfies this call and was the default before. Use it only if your tenant's consent process already grants it for other reasons, or if `LicenseAssignment.Read.All` is unavailable in your app registration UI. It grants read access to the whole directory, which is wider than this tool needs. `Organization.Read.All` and the two `ReadWrite` variants on the same page are likewise sufficient and likewise wider; none of them are recommended here.
 - **Source**: [List subscribedSkus](https://learn.microsoft.com/en-us/graph/api/subscribedsku-list?view=graph-rest-1.0). The documented application set is `LicenseAssignment.Read.All` (least privileged), plus `Directory.Read.All, Directory.ReadWrite.All, Organization.Read.All, Organization.ReadWrite.All`.
 
 ### AuditLog.Read.All (application)
@@ -43,6 +44,7 @@ The app registration should carry exactly these five application permissions and
 - No write permissions: the tool only performs GET requests; it has no code path that could use a write permission. No `ReadWrite` permission of any kind is requested.
 - No `RoleManagement.ReadWrite.Directory`: not needed to read roles and would allow the app to manage role assignments.
 - No `User.ReadWrite.All`, `Group.ReadWrite.All`, `Directory.ReadWrite.All`, `Organization.ReadWrite.All`: the app must never be able to create, change or delete directory objects.
+- No `Directory.Read.All`: the only call that would need it, `GET /subscribedSkus`, is served by the narrower `LicenseAssignment.Read.All`. Reading the whole directory is wider than this tool requires.
 - No delegated permissions at all: the tool authenticates as an application with client credentials, with no user context.
 - No `AuditLog.ReadBasic.All`: it does not cover the `signInActivity` property on users; `AuditLog.Read.All` is what the user resource documents require for that property.
 

@@ -6,7 +6,7 @@ m365-access-audit collects users, groups, directory roles and licence assignment
 
 ## Why I built it
 
-For three years I ran the quarterly, then monthly, access audit of a national organisation's tenant by hand as its sole administrator, checking accounts, permissions and licences against current roles. This tool reproduces that review so it survives staff changes and takes minutes instead of a day.
+For two and a half years I ran the quarterly, then monthly, access audit of a national organisation's tenant by hand as its sole administrator, checking accounts, permissions and licences against current roles. This tool reproduces that review so it survives staff changes and takes minutes instead of a day.
 
 ## Quick start with fixtures
 
